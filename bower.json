@@ -1,0 +1,28 @@
+{
+  "name": "jab-seed",
+  "description": "Seed for jQuery Angular Bootstrap projects",
+  "main": "",
+  "keywords": [
+    "jquery",
+    "angular",
+    "bootstrap"
+  ],
+  "homepage": "https://github.com/joeflintham/jab-seed",
+  "moduleType": [
+    "es6"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.2",
+    "angular-mocks": "^1.5.3",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.2"
+  }
+}
