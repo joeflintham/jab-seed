@@ -1,7 +1,7 @@
 clean: #empty built asset folder for fresh rebuild
 	rm -rf dist
 	mkdir -p dist/assets/css/vendor
-	mkdir -p dist/assets/fonts
+	mkdir -p dist/assets/css/fonts
 	mkdir -p dist/assets/js/vendor
 	mkdir -p dist/assets/js/src
 	echo "Cleaning built assets"
@@ -22,6 +22,7 @@ styles: #build stylesheets
 
 fonts: #build font assets
 	echo "Building fonts"
+	rsync -av ./bower_components/bootstrap/fonts/ dist/assets/css/fonts/
 
 jslib: # build JS lib
 	echo "Building JS library"
